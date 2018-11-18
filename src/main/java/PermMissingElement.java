@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class PermMissingElement {
+class PermMissingElement {
 
     int solution(int[] A) {
         int length = A.length;
