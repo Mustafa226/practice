@@ -1,3 +1,5 @@
+package learn;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -45,11 +47,11 @@ public class Test {
         y.*/
 
 
-        System.out.println(String.format("id = %08.2f", 423.147));
+        //        System.out.println(String.format("id = %08.2f", 423.147));
 
-        final Set<String> strings = new HashSet<>(Arrays.asList("first", "second"));
+        /*final Set<String> strings = new HashSet<>(Arrays.asList("first", "second"));
         strings.add("a");
-        System.out.println(strings);
+        System.out.println(strings);*/
 
     }
 
