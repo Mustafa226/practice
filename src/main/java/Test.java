@@ -1,14 +1,11 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Test {
 
     public static void main(String[] args) {
 
-        Map<Integer, String> map = new HashMap<>();
+        /*Map<Integer, String> map = new HashMap<>();
         map.put(10, "apple");
         map.put(20, "orange");
         map.put(30, "banana");
@@ -18,11 +15,11 @@ public class Test {
         List<String> collect1 = map.keySet().stream().map(Object::toString).collect(Collectors.toList());
         List<Integer> collect2 = map.entrySet().stream().map(integerStringEntry -> integerStringEntry.getKey()).collect(Collectors.toList());
         System.out.println(collect);
-        System.out.println(collect1);
+        System.out.println(collect1);*/
 
         //**//
 
-        final List p = new ArrayList();
+        /*final List p = new ArrayList();
         p.add(7);
         p.add(1);
         p.add(5);
@@ -30,10 +27,40 @@ public class Test {
         p.remove(1);
         System.out.println(p);
         p.remove(1);
-        System.out.println(p);
+        System.out.println(p);*/
 
         //**//
 
+        /*String x = "a";
+        Runnable r = () -> System.out.println(x);
+        x = "b";
+        r.run();*/
+        /*A a = new A();
+        a.fun();
+        String x = "x";
+        "new".equals(x);
+        x.equals("new");
+
+        int y = 1;
+        y.*/
+
+
+        System.out.println(String.format("id = %08.2f", 423.147));
+
+        final Set<String> strings = new HashSet<>(Arrays.asList("first", "second"));
+        strings.add("a");
+        System.out.println(strings);
+
+    }
+
+    static class A {
+        A other;
+        void fun() {
+            A a = new A();
+            A b = new A();
+            a.other = b;
+            b.other = a;
+        }
     }
 
     private class Employee {
