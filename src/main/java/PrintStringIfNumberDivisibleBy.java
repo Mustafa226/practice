@@ -14,7 +14,7 @@ public class PrintStringIfNumberDivisibleBy {
         map.put(5, "Coders");
     }
 
-    public void solution(int N) {
+    public void solution1(int N) {
         if (N >= 1 && N <= 1000) {
             int[] arr = new int[N];
             for (int i = 0; i < N; i++) {
@@ -29,6 +29,29 @@ public class PrintStringIfNumberDivisibleBy {
                 } else {
                     divisbleMapEntries.stream()
                             .map(Map.Entry::getValue).forEach(stringBuilder::append);
+                }
+                stringBuilder.append("\n");
+            }
+            System.out.println(stringBuilder.toString());
+        }
+    }
+
+    public void solution2(int N) {
+        if (N >= 1 && N <= 1000) {
+            int[] arr = new int[N];
+            for (int i = 0; i < N; i++) {
+                arr[i] = i + 1;
+            }
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int value : arr) {
+                List<Integer> divisibleBy = map.keySet().stream().filter(integer -> (value % integer == 0))
+                        .collect(Collectors.toList());
+                if (divisibleBy.isEmpty()) {
+                    stringBuilder.append(value);
+                } else {
+                    divisibleBy.forEach(key -> {
+                        stringBuilder.append(map.get(key));
+                    });
                 }
                 stringBuilder.append("\n");
             }

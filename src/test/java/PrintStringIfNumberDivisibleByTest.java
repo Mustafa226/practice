@@ -15,6 +15,7 @@ public class PrintStringIfNumberDivisibleByTest {
     @Test
     public void test() {
         PrintStringIfNumberDivisibleBy printStringIfNumberDivisibleBy = new PrintStringIfNumberDivisibleBy();
-        printStringIfNumberDivisibleBy.solution(24);
+        printStringIfNumberDivisibleBy.solution1(24);
+        printStringIfNumberDivisibleBy.solution2(24);
     }
 }
