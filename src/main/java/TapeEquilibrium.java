@@ -1,6 +1,34 @@
-public class TapeEquilibrium {
+class TapeEquilibrium {
 
-    public int solution(int[] A){
+    // 100 %
+    int solution1(int[] A) {
+        int result = Integer.MAX_VALUE;
+        if (A != null) {
+            int N = A.length;
+            if (N < 2 || N > 100000) {
+                return result;
+            } else {
+                int total = 0;
+                int leftSum = 0;
+                int rightSum = 0;
+                for (int val : A) {
+                    total += val;
+                }
+                for (int j = 0; j < (N - 1); j++) {
+                    leftSum += A[j];
+                    rightSum = total - leftSum;
+                    int diff = Math.abs(leftSum - rightSum);
+                    if (diff < result) {
+                        result = diff;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
+    // 50 %
+    int solution2(int[] A) {
         int result = Integer.MAX_VALUE;
         if (A != null) {
             int N = A.length;
