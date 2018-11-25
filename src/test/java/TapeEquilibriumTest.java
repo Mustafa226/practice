@@ -16,6 +16,7 @@ public class TapeEquilibriumTest {
     @Test
     public void test() {
         TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
-        Assert.assertEquals(1, tapeEquilibrium.solution(new int[]{3, 1, 2, 4, 3}));
+        Assert.assertEquals(1, tapeEquilibrium.solution1(new int[]{3, 1, 2, 4, 3}));
+        Assert.assertEquals(1, tapeEquilibrium.solution2(new int[]{3, 1, 2, 4, 3}));
     }
 }
