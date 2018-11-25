@@ -29,11 +29,12 @@ public class DeveloperTest {
     @Test
     public void flatMapTest() {
 
-        /*Stream<String[]>		->flatMap -> Stream < String >
-        Stream < Set < String >>	->flatMap -> Stream < String >
-        Stream < List < String >>	->flatMap -> Stream < String >
-        Stream < List < Object >>	->flatMap -> Stream < Object >
-        List < Developer > developerList = new ArrayList<>();*/
+        /*Stream<String[]>		-> flatMap -> Stream < String >
+        Stream < Set < String >>	-> flatMap -> Stream < String >
+        Stream < List < String >>	-> flatMap -> Stream < String >
+        Stream < List < Object >>	-> flatMap -> Stream < Object >*/
+
+        List < Developer > developerList = new ArrayList<>();
 
         Developer d1 = new Developer("d1");
         d1.add("Java");

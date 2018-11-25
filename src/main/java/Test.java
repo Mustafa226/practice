@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 public class Test {
 
     public static void main(String[] args) {
+
         Map<Integer, String> map = new HashMap<>();
         map.put(10, "apple");
         map.put(20, "orange");
@@ -18,6 +19,9 @@ public class Test {
         List<Integer> collect2 = map.entrySet().stream().map(integerStringEntry -> integerStringEntry.getKey()).collect(Collectors.toList());
         System.out.println(collect);
         System.out.println(collect1);
+
+        //**//
+
         final List p = new ArrayList();
         p.add(7);
         p.add(1);
@@ -27,6 +31,29 @@ public class Test {
         System.out.println(p);
         p.remove(1);
         System.out.println(p);
+
+        //**//
+
     }
 
+    private class Employee {
+        String technology;
+        Double salary;
+
+        public String getTechnology() {
+            return technology;
+        }
+
+        public void setTechnology(String technology) {
+            this.technology = technology;
+        }
+
+        public Double getSalary() {
+            return salary;
+        }
+
+        public void setSalary(Double salary) {
+            this.salary = salary;
+        }
+    }
 }
