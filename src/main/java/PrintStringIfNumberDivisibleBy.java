@@ -22,14 +22,13 @@ public class PrintStringIfNumberDivisibleBy {
             }
             StringBuilder stringBuilder = new StringBuilder();
             for (int value : arr) {
-                List<Integer> divisibleBy = map.keySet().stream().filter(integer -> (value % integer == 0))
-                        .collect(Collectors.toList());
-                if (divisibleBy.isEmpty()) {
-                    stringBuilder.append(value);
+                List<Map.Entry<Integer, String>> divisbleMapEntries = map.entrySet().stream()
+                        .filter(entry -> (value % entry.getKey() == 0)).collect(Collectors.toList());
+                if (divisbleMapEntries.isEmpty()) {
+                    stringBuilder.append(value );
                 } else {
-                    divisibleBy.forEach(key -> {
-                        stringBuilder.append(map.get(key));
-                    });
+                    divisbleMapEntries.stream()
+                            .map(Map.Entry::getValue).forEach(stringBuilder::append);
                 }
                 stringBuilder.append("\n");
             }
