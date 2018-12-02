@@ -8,7 +8,7 @@ public class Bicycle {
     public int speed;
     private int test = 5;
     protected int protectedAccessModifierMember;
-    int defaultAccessModifierMember;
+    protected int defaultAccessModifierMember;
 
     // the Bicycle class has one constructor
     public Bicycle(int startCadence, int startSpeed, int startGear) {

@@ -1,0 +1,19 @@
+
+osquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÎ¬a8¦Š¥Ôô,
+psquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ°‰Ù8¡’ŸÔô,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„½¸Ğ8Ë¿ŸÔô,
+Ksquid:S1659E"(Declare "rightCount" on a separate line.(äûóøÿÿÿÿ8‡ÇÖô,
+"squid:ClassVariableVisibilityChecke"MMake l a static final constant or non-public and provide accessors if needed.(ø8åÙÓô,
+psquid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓáÍ‡8 éÏÓô,
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ì«şƒüÿÿÿÿ8ñ€åÔô,
+usquid:S00117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãçü«ÿÿÿÿÿ8¦Š¥Ôô,
+‡"squid:ClassVariableVisibilityCheckd"MMake x a static final constant or non-public and provide accessors if needed.(±Šõ¶ûÿÿÿÿ8åÙÓô,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ØÄò8¡’ŸÔô,
+Usquid:S1135<"2Complete the task associated to this TODO comment.(ÿ€ÊÆÿÿÿÿÿ8ÿ´¦Öô,
+Lsquid:S1125J")Remove the literal "false" boolean value.(³Ö£Èşÿÿÿÿ8Œ”‰Öô,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ââ¿Î8Ö»¢Ôô,
+‡"squid:ClassVariableVisibilityCheckf"MMake r a static final constant or non-public and provide accessors if needed.(»‡âşÿÿÿÿ8åÙÓô,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÂïàıÿÿÿÿ8Ö»¢Ôô,
+1squid:S1220""Move this file to a named package.

@@ -1,0 +1,5 @@
+
+esquid:S1481"BRemove this unused "protectedAccessModifierMember" local variable.(¼«äÓøÿÿÿÿ8äÿ£äô,
+ƒ"squid:ClassVariableVisibilityCheck"VMake seatHeight a static final constant or non-public and provide accessors if needed.(Å‹åi
+csquid:S1481"@Remove this unused "defaultAccessModifierMember" local variable.(íÃğÊÿÿÿÿÿ8¨©©äô,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íú’›8óçõãô,

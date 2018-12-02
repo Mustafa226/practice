@@ -7,21 +7,33 @@ public class Test {
 
     public static void main(String[] args) {
 
-        /*Map<Integer, String> map = new HashMap<>();
-        map.put(10, "apple");
-        map.put(20, "orange");
-        map.put(30, "banana");
-        map.put(40, "watermelon");
-        map.put(50, "dragonfruit");
-        List<Integer> collect = map.keySet().stream().collect(Collectors.toList());
-        List<String> collect1 = map.keySet().stream().map(Object::toString).collect(Collectors.toList());
-        List<Integer> collect2 = map.entrySet().stream().map(integerStringEntry -> integerStringEntry.getKey()).collect(Collectors.toList());
-        System.out.println(collect);
-        System.out.println(collect1);*/
+        testMap();
 
-        //**//
+    }
 
-        /*final List p = new ArrayList();
+    private static void testSet() {
+        final Set<String> strings = new HashSet<>(Arrays.asList("first", "second"));
+        strings.add("a");
+        System.out.println(strings);
+    }
+
+    private static void testThread() {
+        String x = "a";
+        String finalX = x;
+        Runnable r = () -> System.out.println(finalX);
+        x = "b";
+        r.run();
+        A a = new A();
+        a.fun();
+        x = "x";
+        "new".equals(x);
+        x.equals("new");
+
+        int y = 1;
+    }
+
+    private static void testList() {
+        final List p = new ArrayList();
         p.add(7);
         p.add(1);
         p.add(5);
@@ -29,30 +41,24 @@ public class Test {
         p.remove(1);
         System.out.println(p);
         p.remove(1);
-        System.out.println(p);*/
+        System.out.println(p);
+    }
 
-        //**//
-
-        /*String x = "a";
-        Runnable r = () -> System.out.println(x);
-        x = "b";
-        r.run();*/
-        /*A a = new A();
-        a.fun();
-        String x = "x";
-        "new".equals(x);
-        x.equals("new");
-
-        int y = 1;
-        y.*/
-
-
-        //        System.out.println(String.format("id = %08.2f", 423.147));
-
-        /*final Set<String> strings = new HashSet<>(Arrays.asList("first", "second"));
-        strings.add("a");
-        System.out.println(strings);*/
-
+    private static void testMap() {
+        Map<Integer, String> map = new HashMap<>();
+        map.put(10, "apple");
+        map.put(20, "orange");
+        map.put(30, "banana");
+        map.put(40, "watermelon");
+        map.put(50, "dragonfruit");
+        map.put(20, "override");
+        List<Integer> collect = map.keySet().stream().collect(Collectors.toList());
+        List<String> collect1 = map.keySet().stream().map(Object::toString).collect(Collectors.toList());
+        List<Integer> collect2 = map.entrySet().stream().map(entry -> entry.getKey()).collect(Collectors.toList());
+        System.out.println(collect);
+        System.out.println(collect1);
+        System.out.println(collect2);
+        System.out.println(map);
     }
 
     static class A {

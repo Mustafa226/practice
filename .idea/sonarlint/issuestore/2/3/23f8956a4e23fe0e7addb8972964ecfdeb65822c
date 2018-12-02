@@ -1,0 +1,27 @@
+
+Jsquid:S3985J",Remove this unused private "Employee" class.(¯åã¦8µßÂ½ó,
+Xsquid:UnusedPrivateMethod",Remove this unused private "testSet" method.(ôÊØ€8€âÊïõ,
+`squid:UnusedPrivateMethod"/Remove this unused private "testThread" method.(‚ïšÓùÿÿÿÿ8€âÊïõ,
+Ysquid:UnusedPrivateMethod#"-Remove this unused private "testList" method.(ˆ¯µÃ8€âÊïõ,
+bsquid:S41436"DVerify this is the key that was intended; it was already set before.(ï¹é¦8€âÊïõ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(•È®À8€âÊïõ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã“…À8€âÊïõ,
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ8€âÊïõ,
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ8€âÊïõ,
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ8€âÊïõ,
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(É™Êùÿÿÿÿ8€âÊïõ,
+V
+squid:S106<"9Replace this use of System.out or System.err by a logger.(©šŒ•8€âÊïõ,
+V
+squid:S106="9Replace this use of System.out or System.err by a logger.(µˆœÑ8€âÊïõ,
+Isquid:S1481 "&Remove this unused "y" local variable.(íÖÈ®üÿÿÿÿ8€âÊïõ,
+Hsquid:S2201"*The return value of "equals" must be used.(¢ö¨é8€âÊïõ,
+Hsquid:S2201"*The return value of "equals" must be used.( ´”Í8€âÊïõ,
+Jsquid:S16129",Replace this lambda with a method reference.(À¶±´8€âÊïõ,
+Xsquid:S1854"5Remove this useless assignment to local variable "x".(´ú™üÿÿÿÿ8€âÊïõ,

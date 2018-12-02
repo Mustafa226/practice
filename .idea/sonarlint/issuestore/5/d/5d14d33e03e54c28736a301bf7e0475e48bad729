@@ -1,0 +1,20 @@
+
+Dsquid:S1481"'Remove this unused "t1" local variable.(’åí8®œ“àô,
+Ysquid:S1854
+"6Remove this useless assignment to local variable "t1".(“Æ€Åøÿÿÿÿ8é¥®âô,
+Ysquid:S1854"6Remove this useless assignment to local variable "t2".(ñˆÓøÿÿÿÿ8®œ“àô,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(İè¬øÿÿÿÿ8Ÿã°âô,
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸ØïU8Ÿã°âô,
+®%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78›àô,
+wsquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(‚êİ§şÿÿÿÿ8¼–•àô,
+Tsquid:S1854"6Remove this useless assignment to local variable "t2".(Ã“ıÊ8¼–•àô,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ó“í©8¿ñ–àô,
+Ssquid:S1854"6Remove this useless assignment to local variable "t1".(’åí8®œ“àô,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(´Ï·ä8ûé—àô,
+Jsquid:S1481"'Remove this unused "t2" local variable.(ñˆÓøÿÿÿÿ8®œ“àô,
+rsquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8¼–•àô,
+g"squid:ObjectFinalizeOverridenCheck"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8â‹–àô,
